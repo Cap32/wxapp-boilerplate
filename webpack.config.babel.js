@@ -81,6 +81,12 @@ export default (env = {}) => {
 					use: [
 						relativeFileLoader(isWechat ? 'wxss' : 'acss'),
 						{
+							loader: 'css-loader',
+							options: {
+								import: false,
+							},
+						},
+						{
 							loader: 'sass-loader',
 							options: {
 								includePaths: [resolve('src', 'styles'), srcDir],

@@ -40,6 +40,7 @@
 		"copy-webpack-plugin": "^4.5.1",
 		"create-wxapp-page": "^2.0.8",
 		"cross-env": "^5.0.1",
+		"css-loader": "^1.0.0",
 		"eslint": "^4.19.1",
 		"eslint-config-cantonjs": "^1.0.0",
 		"eslint-config-standard": "^11.0.0",

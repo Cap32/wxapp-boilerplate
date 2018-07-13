@@ -1,5 +1,4 @@
-
-$padding: 200rpx;
+@import './common.css';
 
 .container {
 	height: 100%;
@@ -7,6 +6,6 @@ $padding: 200rpx;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	padding: $padding 0;
 	box-sizing: border-box;
+	background: url('./images/face2.png');
 }
